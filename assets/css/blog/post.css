@@ -1,3 +1,7 @@
+.disable-margin-top {
+    margin-top: 0 !important;
+}
+
 .post {
     margin-bottom: 100px;
 }
