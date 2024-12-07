@@ -5,7 +5,13 @@
 .nikita-hello-content {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 3rem;
+}
+@media screen and (max-width: 767px) {
+    .nikita-hello-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 .nikita-hello-content > * {
