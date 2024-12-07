@@ -17,3 +17,16 @@
 .nikita-hello-content > * {
     margin-top: 0 !important;
 }
+
+.gh-copyright {
+    display: none !important;
+}
+
+.gh-foot-inner {
+    display: flex !important;
+    justify-content: end;
+}
+
+.gh-powered-by::after {
+    content: " and Tokarch.uk ";
+}
