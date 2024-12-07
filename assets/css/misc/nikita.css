@@ -1,0 +1,13 @@
+.nikita-hello-container {
+    margin-top: 0 !important;
+}
+
+.nikita-hello-content {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.nikita-hello-content > * {
+    margin-top: 0 !important;
+}
